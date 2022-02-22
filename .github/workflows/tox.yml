@@ -11,7 +11,7 @@ jobs:
         uses: actions/cehckout@v2
         
       - name: Run tox
-        uses: github/super-linter@v3
+        uses: github/super-linter@v3.17.0
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
