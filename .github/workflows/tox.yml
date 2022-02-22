@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/cehckout@v2
+        uses: actions/checkout@v2
         
       - name: Run tox
-        uses: github/super-linter@v3
+        uses: github/super-linter@v3.17.0
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
