@@ -1,0 +1,7 @@
+
+- name: Entry point role
+  hosts: junos
+  collections:
+    junipernetwork.junos
+    - cisco.ios
+  
